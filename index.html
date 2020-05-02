@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
   </head>
   <body>
+      <!--Логотип сайта, ссылки навигации, электронная почта и телефон фирмы-->
     <header> 
-      <nav>
-        <a href="/">
+        
+      <nav>          
+        <a href="./index.html">
             Web Studio
         </a>
 
@@ -35,6 +37,7 @@
       </nav>
     </header> 
 
+  <!--Деловые качества, основные направления, персонал, клиенты-->
     <main>
     <div>
       <section>
@@ -91,8 +94,8 @@
         <ul>
             <li>
                 <img src="./images/foto1.jpg" alt="John Smith">
-                <h3>John Smith</h3>
-                <p>Product Designer</p>
+                <h3 lang="en">John Smith</h3>
+                <p lang="en">Product Designer</p>
                 <ul>
                     <li><a href=""><img src="./images/insta.svg" alt="instagram"></a></li>
                     <li><a href=""><img src="./images/twiter.svg" alt="twiter"></a></li>
@@ -103,8 +106,8 @@
 
             <li>
                 <img src="./images/foto2.jpg" alt="Marta Stewart">
-                <h3>Marta Stewart</h3>
-                <p>Frontend Developer</p>
+                <h3 lang="en">Marta Stewart</h3>
+                <p lang="en">Frontend Developer</p>
                 <ul>
                     <li><a href=""><img src="./images/insta.svg" alt="instagram"></a></li>
                     <li><a href=""><img src="./images/twiter.svg" alt="twiter"></a></li>
@@ -115,8 +118,8 @@
 
             <li>
                 <img src="./images/foto3.jpg" alt="Robert Jakis">
-                <h3>Robert Jakis</h3>
-                <p>Marketing</p>
+                <h3 lang="en">Robert Jakis</h3>
+                <p lang="en">Marketing</p>
                 <ul>
                     <li><a href=""><img src="./images/insta.svg" alt="instagram"></a></li>
                     <li><a href=""><img src="./images/twiter.svg" alt="twiter"></a></li>
@@ -127,8 +130,8 @@
 
             <li>
                 <img src="./images/foto4.jpg" alt="Martin Doe">
-                <h3>Martin Doe</h3>
-                <p>UI Designer</p>
+                <h3 lang="en">Martin Doe</h3>
+                <p lang="en">UI Designer</p>
                 <ul>
                     <li><a href=""><img src="./images/insta.svg" alt="instagram"></a></li>
                     <li><a href=""><img src="./images/twiter.svg" alt="twiter"></a></li>
@@ -152,34 +155,41 @@
         </ul>
     </section>
     </main>
-
+   <!--Логотип, физический адрес, контакты, страницы в соц. сетях, подписка на рассылку-->
     <footer>
-        <h2>Web Studio</h2>
-        <p>г. Киев, пр-т Леси Украинки, 26</p>
-        <ul>
-            <li>
-                <a href="mailto:info@devstudio.com"> 
-                    info@devstudio.com
-                </a>
-            </li>
-            <li>
-                <a href="tel:380961111111">
-                    +38 096 111 11 11
-                </a>
-            </li>
-        </ul>
-
-        <h2>присоединяйтесь</h2>
-        <ul>
-            <li><a href=""><img src="./images/insta.svg" alt="instagram"></a></li>
-            <li><a href=""><img src="./images/twiter.svg" alt="twiter"></a></li>
-            <li><a href=""><img src="./images/facebook.svg" alt="facebook"></a></li>
-            <li><a href=""><img src="./images/in.svg" alt="in"></a></li>
-        </ul>
-
-        <h2>подписаться на рассылку</h2>
-        <input type="text" name="user_name" />
-        <button type="submit">Подписаться</button>
+        <div>
+            <a href="./index.html">Web Studio</a>                 
+                     
+            <address>
+                        г. Киев, пр-т Леси Украинки, 26 <br>
+                        <a href="mailto:info@devstudio.com"> 
+                        info@devstudio.com
+                        </a><br>
+               
+                        <a href="tel:380961111111">
+                        +38 096 111 11 11
+                        </a>
+            </address> 
+        </div>
+        
+        
+        <div>
+            <b>присоединяйтесь</b> 
+            <ul>
+               <li><a href="" aria-label="Instagram link">Instagram</a></li>
+               <li><a href="" aria-label="Twitter link">Twitter</a></li>
+               <li><a href="" aria-label="Facebook link">Facebook</a></li>
+               <li><a href="" aria-label="LinkedIn link">LinkedIn</a></li>
+            </ul>
+        </div>
+        
+        <div>
+            <p>подписаться на рассылку</p> 
+            <input type="text" name="user_name" />
+            <button type="submit">Подписаться</button>
+        </div>
+        
+        <p>2020 | Developed by GoIT Students </p>
 
     </footer>
   </body>
